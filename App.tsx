@@ -4,9 +4,8 @@ import React, { useState, useCallback, useRef, useEffect } from 'react';
 import * as XLSX from 'xlsx';
 import JSZip from 'jszip';
 import { ImageFile, Character, BulkResult } from './types';
-import { generateImage } from './services/geminiService';
-import { ImageUploader } from './components/ImageUploader';
-import { ApiKeyModal } from './components/ApiKeyModal';
+import { generateImage } from './src/services/geminiService';
+
 
 const initialCharacters: Character[] = [
   { id: 1, name: "Nhân vật 1", image: null, isSelected: false },
