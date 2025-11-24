@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Tạo ảnh nhất quán - Thành IT",
+  "description": "An AI-powered web application to generate consistent cartoon character images using Gemini. Users can upload reference characters, a background, and provide a prompt to create new scenes while maintaining character identity.",
+  "requestFramePermissions": []
+}
